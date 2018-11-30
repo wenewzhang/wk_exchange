@@ -1,9 +1,14 @@
-wk_exchange
-=====
+# An OTP application of interactive with Mixin Network
 
-An OTP application
+## Required
+
+erlang www.erlang.org
+rebar3 https://github.com/erlang/rebar3
+
 
 Build
 -----
 
-    $ rebar3 compile
+    $ rebar3 new release wk_exchange
+    $ 
+    
