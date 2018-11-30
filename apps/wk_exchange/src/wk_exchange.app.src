@@ -1,0 +1,18 @@
+{application, wk_exchange,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {wk_exchange_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    inets,
+    ssl
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
