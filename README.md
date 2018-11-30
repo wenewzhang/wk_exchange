@@ -16,6 +16,14 @@ rebar3 new release wk_exchange
 ```
 >2.add inet,ssl support to OTP(for https access)
 open **wk_exchange.app.src** add **inets**,**ssl** to applications block
+```
+  {applications,
+   [kernel,
+    stdlib,
+    inets,
+    ssl
+   ]},
+```
 >3.define the const
 ```erlang
 -define(CLIENT_ID,<<"21042518-85c7-4903-bb19-f311813d1f51">>).
