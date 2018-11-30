@@ -6,7 +6,7 @@
 * rebar3 https://github.com/erlang/rebar3
 
 ## Prepare 
-* Mixin Network https://developers.mixin.one/dashboard  create app on Mixin Network then get client_id and client_secret
+* Mixin Network https://developers.mixin.one/dashboard  create app on Mixin Network then get **client_id** and **client_secret**
 
 ## Build steps
 here suppose you install erlang and rebar3 correctly,
